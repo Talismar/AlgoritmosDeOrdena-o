@@ -1,3 +1,2 @@
-print("Talismar")
-#Aprendendo git e gitHub
-
+for i in range(0,100):
+    print(i)
