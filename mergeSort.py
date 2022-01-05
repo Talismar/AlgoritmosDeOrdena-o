@@ -33,6 +33,7 @@ A = []
 for i in range(0,1000):
     A.append(random.randint(0,5))
 
+"time.time() Função para calcular o tempo de excução do algoritmo"
 start = time.time()
 print(MergeSort(A,0,len(A)))
 end = time.time()
