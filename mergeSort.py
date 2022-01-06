@@ -30,9 +30,10 @@ def MergeSort(lista, inicio, fim):
 
 os.system("cls")
 A = []
-for i in range(0,1000):
+for i in range(0,10):
     A.append(random.randint(0,5))
 
+print(A)
 "time.time() Função para calcular o tempo de excução do algoritmo"
 start = time.time()
 print(MergeSort(A,0,len(A)))
